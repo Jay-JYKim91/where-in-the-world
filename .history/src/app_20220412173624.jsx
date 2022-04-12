@@ -1,9 +1,15 @@
+import { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import styles from './app.module.css';
 import Detail from './components/detail/detail';
 import Main from './components/main/main';
 
 function App({ restCountries }) {
+  const [countries, setCountries] = useState();
+
+  useEffect(() => {
+    restCountries.allCountries().then(countries => console.log(countries));
+  })
   return (
     <div className={styles.app}>
       <BrowserRouter>
