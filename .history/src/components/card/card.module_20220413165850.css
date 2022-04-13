@@ -1,0 +1,13 @@
+.container {
+  padding: 0.2em;
+  width: 25%;
+}
+
+.imageBox {
+  height: 90px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}

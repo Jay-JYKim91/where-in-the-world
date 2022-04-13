@@ -1,0 +1,7 @@
+@value darkGray from '../../common/colors.css';
+
+.app {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: darkGray;
+}

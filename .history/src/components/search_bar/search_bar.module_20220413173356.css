@@ -1,0 +1,9 @@
+.searchBar {
+  padding: 0.8em 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputBox {
+  background-color: white;
+}

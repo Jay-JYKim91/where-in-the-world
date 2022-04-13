@@ -1,0 +1,6 @@
+@value darkBlue: hsl(209, 23%, 22%);
+@value veryDarkBlue1: hsl(207, 26%, 17%);
+@value veryDarkBlue2: hsl(200, 15%, 8%);
+@value darkGray: hsl(0, 0%, 52%);
+@value veryLightGray: hsl(0, 0%, 98%);
+@value white: hsl(0, 0%, 100%);
