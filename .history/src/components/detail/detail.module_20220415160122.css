@@ -1,0 +1,9 @@
+.container {
+  padding: 5em 3em;
+}
+
+.top_box button {
+  background-color: white;
+  padding: 0.5em 1em;
+  border-radius: 0.7em;
+}

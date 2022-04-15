@@ -1,0 +1,35 @@
+.container {
+  padding: 3em;
+}
+
+.top_box {
+  margin-bottom: 3em;
+}
+
+.top_box button {
+  background-color: white;
+  padding: 0.5em 2em;
+  border-radius: 0.3em;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.top_box button span:first-child {
+  vertical-align: middle;
+}
+
+.icon {
+  margin-right: 1em;
+}
+
+.detail {
+  display: flex;
+}
+
+.image_box {
+  width: 45%;
+}
+
+.image {
+  width: 100%;
+}

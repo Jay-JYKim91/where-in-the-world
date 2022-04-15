@@ -1,0 +1,30 @@
+@value darkGray from '../../common/colors.css';
+
+.header {
+  height: 4rem;
+  padding: 0.8em 3em;
+  box-shadow: 0 4px 4px -4px darkGray;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.icon {
+  margin-right: 0.3em;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  font-size: 0.9rem;
+}
